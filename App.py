@@ -18,7 +18,7 @@ class Tweeper:
         self.user = self.api.get_user("twitter")
 
     def printUser(self):
-        print(self.user.screen_name)
+        print(self.user.followers_count)
 
 
 if(__name__ == "__main__"):
