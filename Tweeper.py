@@ -10,4 +10,3 @@ class tweeper:
     def sendTweet(self, message):
         self.api.update_status(message)
         
-
