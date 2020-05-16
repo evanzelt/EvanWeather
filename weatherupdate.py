@@ -14,10 +14,11 @@ def closestFarthestCities(location):
     cities_weather = []
     for city in major_cities:
         weather_data = getWeatherData(city)
-        weather_data = (city, weather_data['main']['temp'], weather_data['weather'][0]['description'])
-        cities_weather.append(weather_data)
 
-    location_temp = getWeatherData(location)['main']['temp']
+        weather_data = (city, weather_data["main"]["temp"], weather_data["weather"][0]["description"])
+        cities_weather.append(weather_data)
+        
+    location_temp = getWeatherData(location)["main"]["temp"]
 
     closestTemp = abs(cities_weather[0][1] - location_temp)
     farthestTemp = abs(cities_weather[0][1] - location_temp)
