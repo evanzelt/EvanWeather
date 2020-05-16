@@ -1,7 +1,6 @@
 import tweepy
-import time
     
-class Tweeper:
+class tweeper:
     def __init__(self, API_key, API_secret, token, token_secret):
         auth = tweepy.OAuthHandler(API_key, API_secret)
         auth.set_access_token(token, token_secret)
