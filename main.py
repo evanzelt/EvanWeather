@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from tweeper import tweeper
+from Tweeper import tweeper
 from weatherupdate import getWeatherData, closestFarthestCities
 from time import time
 from datetime import date
