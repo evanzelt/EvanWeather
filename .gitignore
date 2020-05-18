@@ -3,4 +3,4 @@
 /__pycache__
 .env
 Procfile
-.txt
+*.txt
