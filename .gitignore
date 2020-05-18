@@ -4,3 +4,4 @@
 .env
 Procfile
 *.txt
+*.pyc
